@@ -1,7 +1,7 @@
 # shell-commands
 
 **Top 10 git commands**
-```
+```shell
 ➜ history -n | grep git | cut -d' ' -f -3 | sort | uniq -c | sort -k1,1nr -k2 | head -n 10
 
  268 git commit -am
